@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "emails": [
+    {
+      "id": 1,
+      "subject": "some email subject...",
+      "body": "some email body",
+      "sender": "bill smith"
+    },
+    {
+      "id": 2,
+      "subject": "some email subject2...",
+      "body": "some email body2",
+      "sender": "will hitchcock"
+    }
+  ]
+}
