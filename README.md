@@ -8,12 +8,12 @@ JSON Server is a ready to use API for prototyping, mocking, playing around.
 
 ## Getting started
 
-Download a docker image <url here>
+Download a [docker image](https://hub.docker.com/r/randominik/json_server_docker)
 
 Run docker image
 
 ```
-docker run -p 3000:3000 json_server_docker:1.0
+docker run -p 3000:3000 json_server_docker:v1.0
 ```
 
 That's it!
