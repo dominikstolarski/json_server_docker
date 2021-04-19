@@ -10,7 +10,7 @@ JSON Server is a ready to use API for prototyping, mocking, playing around.
 
 Download a [docker image](https://hub.docker.com/r/randominik/json_server_docker)
 
-Run docker image
+Run docker image as a container
 
 ```
 docker run -p 3000:3000 randominik/json_server_docker:v1.0
@@ -30,4 +30,9 @@ For detailed API documentation please visit [project's page](https://github.com/
 
 ## Using your own data collection
 
-TODO
+Json server looks for data.json file and creates one only if such file is not found.
+TO use your data you need to prepare data.json file and run docker image with "-v" (volume) option and pass a path to a directory with your data.json file.
+
+```
+docker run -p 3000:3000 -v /path/to/your/directory/with/data_file/:/usr/src/api randominik/json_server_docker:v1.0
+```
